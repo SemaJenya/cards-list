@@ -11,6 +11,7 @@ function App() {
     <div className={s.app}>
       <Header />
       <Routes>
+        <Route path='*' element={<div>404</div>} />
         <Route path='/' element={<Main />} />
 
     
