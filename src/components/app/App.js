@@ -11,7 +11,7 @@ function App() {
     <div className={s.app}>
       <Header />
       <Routes>
-        <Route path='/cards-list' element={<Main />} />
+        <Route path='/' element={<Main />} />
 
     
       </Routes>

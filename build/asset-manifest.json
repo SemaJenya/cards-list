@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "./cards-list/static/css/main.1894da37.css",
-    "main.js": "./cards-list/static/js/main.efe87989.js",
-    "static/js/453.7f6b4fb1.chunk.js": "./cards-list/static/js/453.7f6b4fb1.chunk.js",
-    "static/media/logo.svg": "./cards-list/static/media/logo.edceb9265b94af5cae76218779eff8ec.svg",
-    "index.html": "./cards-list/index.html",
-    "main.1894da37.css.map": "./cards-list/static/css/main.1894da37.css.map",
-    "main.efe87989.js.map": "./cards-list/static/js/main.efe87989.js.map",
-    "453.7f6b4fb1.chunk.js.map": "./cards-list/static/js/453.7f6b4fb1.chunk.js.map"
+    "main.css": "/SemaJenya/cards-list/static/css/main.1894da37.css",
+    "main.js": "/SemaJenya/cards-list/static/js/main.929e34fa.js",
+    "static/js/453.7f6b4fb1.chunk.js": "/SemaJenya/cards-list/static/js/453.7f6b4fb1.chunk.js",
+    "static/media/logo.svg": "/SemaJenya/cards-list/static/media/logo.edceb9265b94af5cae76218779eff8ec.svg",
+    "index.html": "/SemaJenya/cards-list/index.html",
+    "main.1894da37.css.map": "/SemaJenya/cards-list/static/css/main.1894da37.css.map",
+    "main.929e34fa.js.map": "/SemaJenya/cards-list/static/js/main.929e34fa.js.map",
+    "453.7f6b4fb1.chunk.js.map": "/SemaJenya/cards-list/static/js/453.7f6b4fb1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1894da37.css",
-    "static/js/main.efe87989.js"
+    "static/js/main.929e34fa.js"
   ]
 }
