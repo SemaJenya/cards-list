@@ -2,6 +2,7 @@
 import s from './header.module.css';
 import sel from 'classnames';
 import logo from '../../images/logo.svg'
+import { Link } from 'react-router-dom';
 
 
 function Header() {
@@ -10,26 +11,26 @@ function Header() {
     return (
         <header className={s.header}>
             <nav className={s.navigation}>
-                <div className={s.logo_box}>
+                <Link to={'/cards-list'} className={s.logo_box}>
                     <img className={s.logo} src={logo} />
-                </div>
+                </Link>
 
                 <div className={s.options_box}>
-                    <div className={s.nav_box}>
+                    <Link to={'/cards-list/materials'} className={s.nav_box}>
                         <p className={s.nav_text}>Материалы</p>
-                    </div>
-                    <div className={s.nav_box}>
+                    </Link>
+                    <Link className={s.nav_box}>
                         <p className={s.nav_text}>Приступить к изучению</p>
-                    </div>
-                    <div className={s.nav_box}>
+                    </Link>
+                    <Link className={s.nav_box}>
                         <p className={s.nav_text}>О нас</p>
-                    </div>
+                    </Link>
                 </div>
 
 
-                <div className={sel(s.nav_box, s.personal_account)}>
+                <Link className={sel(s.nav_box, s.personal_account)}>
                     <p className={s.nav_text}>Личный кабинет</p>
-                </div>
+                </Link>
 
 
 
