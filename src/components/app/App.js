@@ -12,7 +12,7 @@ function App() {
       <Header />
       <Routes>
         <Route path='*' element={<div>404</div>} />
-        <Route path='/' element={<Main />} />
+        <Route path='/cards-list' element={<Main />} />
 
     
       </Routes>
