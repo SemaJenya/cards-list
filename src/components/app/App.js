@@ -5,6 +5,7 @@ import s from './aap.module.css';
 import sel from 'classnames';
 import Main from '../../pages/main/main';
 import Materials from '../../pages/materials/materials';
+import Practice from '../../pages/practice/practice';
 
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
         <Route path='*' element={<div>404</div>} />
         <Route path='/cards-list' element={<Main />} />
         <Route path='/cards-list/materials' element={<Materials />} />
-    
+        <Route path='/cards-list/practice' element={<Practice />} />
       </Routes>
     </div>
   )

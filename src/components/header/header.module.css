@@ -28,7 +28,17 @@
     object-fit: cover;
     overflow: hidden;
     border: 1px solid rgb(31, 118, 63);
-    
+    transition: 0.3s;
+    opacity: 1;
+}
+
+.logo_box:hover {
+    transform: scale(1.08);
+    background-color: rgb(255, 239, 201);
+}
+
+.logo_box:active {
+    background-color: rgb(248, 229, 177);
 }
 
 
@@ -48,12 +58,25 @@
     border: 1px solid rgb(31, 118, 63);
     display: flex;
     align-items: center;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+
+.nav_box:hover {
+    transform: scale(1.08);
+    background-color: rgb(255, 239, 201);
+}
+
+.nav_box:active {
+    background-color: rgb(248, 229, 177);
 }
 
 
 .nav_text {
     margin: 0;
     size: 16px;
+    color: black;
 }
 
 
@@ -67,5 +90,4 @@
 .personal_account {
     display: flex;
     justify-content: flex-end;
-
 }
