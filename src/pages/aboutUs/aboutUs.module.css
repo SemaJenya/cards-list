@@ -40,6 +40,7 @@
     border: 1px solid rgb(98, 153, 91);
     border-radius: 5px;
     cursor: pointer;
+    color: black;
 }
 
 .button:hover {
@@ -97,6 +98,7 @@
     border: 1px solid rgb(215, 183, 179);
     border-radius: 5px;
     cursor: pointer;
+    color: black;
 }
 
 .button_call:hover {
