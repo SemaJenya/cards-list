@@ -59,7 +59,7 @@ function Header() {
                         <Link to={'/cards-list/practice'} className={s.nav_box}>
                             <p className={s.nav_text}>Приступить к изучению</p>
                         </Link>
-                        <Link className={s.nav_box}>
+                        <Link to={'/cards-list/about'} className={s.nav_box}>
                             <p className={s.nav_text}>О нас</p>
                         </Link>
                     </div>

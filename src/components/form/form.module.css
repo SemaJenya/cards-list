@@ -1,0 +1,111 @@
+.aboutUs {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.form {
+    display: flex;
+    border: 2px solid rgb(215, 183, 179);
+    flex-direction: column;
+    max-width: 300px;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    align-self: center;
+    margin-bottom: 50px;
+    background-color: white;
+}
+
+
+.form_title {
+    margin: 0;
+    align-self: center;
+}
+
+
+.input {
+    text-align: center;
+    border: none;
+    border: 1px solid rgb(194, 182, 182);
+    border-radius: 5px;
+}
+
+
+.button {
+    background-color: white;
+    border: none;
+    border: 1px solid rgb(98, 153, 91);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(220, 245, 221); 
+}
+
+.button:active {
+    background-color: rgb(197, 242, 198);
+}
+
+
+.popup {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.popup_content {
+    display: flex;
+    background-color: white;
+    width: 300px;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    border-radius: 10px;
+    border: 2px solid rgb(195, 215, 179);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+.close {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    color: rgb(26, 151, 58);
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+.button_call {
+    width: 300px;
+    height: 30px;
+    align-self: center;
+    border: 1px solid rgb(215, 183, 179);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button_call:hover {
+    background-color: rgb(245, 232, 230);
+}
+
+.button_call:active {
+    background-color: rgb(242, 215, 211);
+}
+
+
+

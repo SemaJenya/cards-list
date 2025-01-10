@@ -6,6 +6,7 @@ import sel from 'classnames';
 import Main from '../../pages/main/main';
 import Materials from '../../pages/materials/materials';
 import Practice from '../../pages/practice/practice';
+import AboutUs from '../../pages/aboutUs/aboutUs';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path='/cards-list' element={<Main />} />
         <Route path='/cards-list/materials' element={<Materials />} />
         <Route path='/cards-list/practice' element={<Practice />} />
+        <Route path='/cards-list/about' element={<AboutUs />} />
       </Routes>
     </div>
   )
