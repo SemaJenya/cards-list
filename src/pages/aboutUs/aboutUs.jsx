@@ -51,9 +51,9 @@ function AboutUs() {
   return (
 
     <div className={s.aboutUs}>
-      <h2 className='title'>бла бла тут о нас</h2>
-      <p className='text'>мы супер пупер и пыатаемся сделать автотесты без автотестов</p>
-      <p>Свяжитесь с нами. Мы самые классные</p>
+      <h2 className={s.title}>О нас</h2>
+      <p className='text'>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+      <p className='text'>"Нет никого, кто любил бы боль саму по себе, кто искал бы её и кто хотел бы иметь её просто потому, что это боль.."</p>
 
 {/* Первая форма */}
       <form id="feedback-form" className={sel(s.form, s.form_selen)} onSubmit={handleFeedBackButton}>

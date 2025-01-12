@@ -4,6 +4,14 @@
 }
 
 
+.title {
+font-size: 36px;
+font-family: 'Roboto', sans-serif, Arial;
+font-weight: bold;
+text-align: center;
+}
+
+
 .form {
     display: flex;
     border: 2px solid rgb(215, 183, 179);
@@ -127,5 +135,5 @@
 }
 
 .form_selen {
-    
+
 }
