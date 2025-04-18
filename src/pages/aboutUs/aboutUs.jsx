@@ -48,6 +48,8 @@ function AboutUs() {
 
 
 
+
+
   return (
 
     <div className={s.aboutUs}>

@@ -1,0 +1,14 @@
+{
+    "landingCard": [
+        {
+            "id": 1,
+            "title": "first card",
+            "image": "../src/images/logo.svg"
+        },
+        {
+            "id": 2,
+            "title": "second card",
+            "image": "../src/images/burger.svg"
+        }
+    ]
+}
