@@ -7,6 +7,7 @@ export const fetchLandingCards = createAsyncThunk(
     'landigCard/fetchLandingCards',
     async function () {
         const data = await getLandingCard();
+        console.log(data,'data');
         return data;
     }
 )
@@ -24,14 +25,15 @@ export const landingCardSlice = createSlice({
             .addCase(fetchLandingCards.pending, (state) => {
                 state.isLoading = true;
                 state.error = null;
+                
             })
             .addCase(fetchLandingCards.fulfilled, (state, action) => {
                 state.isLoading = false;
                 state.landingCards = action.payload;
             })
-            .addCase(fetchLandingCards.error, (state, action) => {
+            .addCase(fetchLandingCards.rejected, (state, action) => {
                 state.isLoading = false;
-                state.error = error;
+                state.error = action.payload;
             })
     }
 });

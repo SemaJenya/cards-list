@@ -8,7 +8,7 @@ const checkResponse = (response) => {
 export const getLandingCard = () => {
     return fetch(`${apiUrl}/landingCard`)
         .then(checkResponse)
-        .then((data)=> console.log(data))
+        .then((data)=> data)
 }
 
 

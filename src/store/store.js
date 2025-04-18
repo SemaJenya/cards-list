@@ -3,6 +3,6 @@ import landingCardReduser from '../store/redusers/landingCard/landingCardSlice.j
 
 export default configureStore({
     reducer:{
-        landingCard: landingCardReduser,
+        landingCardStore: landingCardReduser,
     }
 });
